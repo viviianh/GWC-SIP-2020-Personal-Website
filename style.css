@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 2em;
+  background-color: #cce6ff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-style: italic;
+  color: black;
+}
+
+h2 {
+  margin-top: 2em;
+  color: black;
+}
+
+button{
+   margin: 10px;
+  font-family: "Lato", sans-serif;
+  background-color: pink;
+  border-radius: 10px
+}
+.question {
+  display: flex;
+  margin-top: 2em;
+  width: 
+}
+
+.answer-choice img {
+  height: 20em;
+  border: 5px solid pink;
+}
+.top{
+  background-color:white;
+  padding: 1em
+}
+
+.result{
+  background-color:white;
+  padding: 1em
+}

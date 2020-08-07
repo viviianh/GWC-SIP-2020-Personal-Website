@@ -1,61 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap" rel="stylesheet">
-    <title>Vivian's Personal Website</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Quarantine Activity</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
-  <body class = "custom">
-    <div id="back img">
-    <div class="navigation">
-<div class="custom">
-     
-      <nav>
-        <h1>Vivian Huang</h1>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-      </nav> 
+  <body>
+    <div class= "top">
+    <h1>
+      Build your perfect day for when COVID-19 is over and we’ll tell you what
+      quarantine activity you should do.
+    </h1>
+</div>
+    <h2>What are you going to eat in the morning?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img 
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fcereals-milk-bottle-breakfast-flake-wallpaper-preview.jpg?v=1596668253854"
+        />
+        <br />
+        <button id="q1a1">Cereal with any milk</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2FBreakfast-Burritos.jpg?v=1596668281382"
+        />
+        <br />
+        <button id="q1a2">Breakfast Burrito</button>
       </div>
     </div>
-<!--  Photo of me    -->  
-    <div>
-      <img class="me"
-        src="https://cdn.glitch.com/c796df74-51cf-409a-a1d6-4fe302a08c25%2F229569E4-5AD0-414E-BF3A-F8B68C7D5221.jpeg?v=1596482322147"
-        alt="Picture of me"
-        width="400px"
-      />
-      <img class= "clouds"
-           src="https://cdn.glitch.com/c796df74-51cf-409a-a1d6-4fe302a08c25%2FUntitled%20design.png?v=1596567151752"
-           alt="Cloud pic"
-           width= "1410"
-           />
-     
-    
-      <h1 class="vpw">
-        Vivian's Personal Website
-      </h1>
+    <div class= "question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fimage.jpeg?v=1596668364011"
+        />
+        <br />
+        <button id="q1a3">Avocado Toast</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fsmoothie-bowl-recipe-1.jpg?v=1596668348738"
+        />
+        <br />
+        <button id="q1a4">Smoothie Bowl</button>
       </div>
     </div>
-<!-- My more personal info and experience -->
-    <div class="blurbs">
-      <div class="b1">
-      <p>
-        My name is Vivian Huang! I am a rising junior and live in the Bay Area
-        in California. I love playing piano, baking, and dragon boating in my free time.
-      </p>
-  </div>
-  <div class = "b1">
-      <p>
-        I am interested in many different subjects, including English, Environmental science, Art, Math, and more.
-      </p>
+
+    <h2>What do you want to do in the daytime?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2FShutterstock_Lisa_Kolbasa.png?v=1596688271952"
+        />
+        <br />
+        <button id="q2a1">Practice a sport</button>
       </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2FFeatured%20Cuba%20Beaches.jpg?v=1596688299411"
+        />
+        <br />
+        <button id="q2a2">Go to the Beach</button>
+      </div>
+      </div>
+    <div class= "question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fcity%20photo.jpeg?v=1596688246198"
+        />
+        <br />
+        <button id="q2a3">Go explore a new part of a city</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fmuseum%20photo.jpg?v=1596688260873"
+        />
+        <br />
+        <button id="q2a4">Explore a museum</button>
+      </div>
+    </div>
+
+    <h2>What’s the Evening Activity for tonight?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fnight%20exploring.jpg?v=1596688908912"
+        />
+        <br />
+        <button id="q3a1">Go exploring with your friends</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fmovie%20theater.jpg?v=1596688900394"
+        />
+        <br />
+        <button id="q3a2">Go to the movies</button>
+      </div>
+      </div>
+    <div class= "question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fnight%20silouette.png?v=1596688913544"
+        />
+        <br />
+        <button id="q3a3">Go for an evening run</button>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/7f4a8d35-2dca-4a7f-b737-792ea2bf9b44%2Fnight%20read.jpeg?v=1596689084928"
+        />
+        <br />
+        <button id="q3a4">Read a book</button>
+      </div>
+    </div>
+
+    <div class="result">
+      <h2 id="result">You should...</h2>
     </div>
   </body>
 </html>
